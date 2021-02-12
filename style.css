@@ -1,0 +1,111 @@
+body{
+	margin: 0px;
+	background-color: white;
+    }
+	h1:hover{
+			color: white ;
+		}
+
+	.pname:hover{
+		color: white;
+
+	}
+
+header{
+	background-color:#8C001A;
+	color: #FBB917;
+	padding: 5px;
+	text-align: center;
+	font-family: "Comic Sans Ms";
+
+    }
+
+nav {
+	overflow: hidden;
+	background-color: = #FBB917;
+    }
+
+nav a {
+	float: left;
+	color: #FBB917;
+	padding: 10px 10px 10px 10px;
+	text-decoration: none;
+    }
+
+nav a:hover {
+	background-color: #FBB917;
+	color: white;
+	color: white;
+     }
+
+.column {
+	float: left;
+	padding: 10px;
+    }
+
+.column.side {
+	width: 20%;
+    }
+
+.column.middle {
+	width: 50%;
+    }
+
+div.gallery {
+	margin: 5px;
+	border: 5px solid black;
+	float: left;
+	width: 200px;
+    }
+
+ div.gallery:hover {
+ 	border: 1px solid red;
+
+ }
+
+div.gallery img {
+	width: 100%;
+	height: auto;
+    }
+
+ div.desc {
+ 	padding: 15px;
+ 	text-align: center;
+    }
+
+   input[type=text], select, textarea{
+   	width: 100%;
+   	padding: 12px;
+   	border: 1px solid gray;
+   	margin-top: 6px;
+   	margin-bottom: 16px;
+   	resize: vertical;
+   }
+   input[type=submit]{
+   	background-color: green;
+   	color: white;
+   	padding: 12px 20px;
+   	cursor: pointer;
+   	border: none;
+   	margin: 2px;
+   } 
+
+footer {
+	clear: both;
+	background-color: #8C001A;
+	color: #FBB917;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	font-family: "Comic Sans Ms";
+   }
+
+
+@media screen and (max-width: 617px) {
+	.column.side,.column.middle{width: 100%;
+	}
+
+	/*This is paragraph*/
+	p {
+		text-align: justify;
+	}
